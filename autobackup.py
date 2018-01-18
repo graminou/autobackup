@@ -8,8 +8,7 @@ import os
 import os.path
 import subprocess
 
-from mysettings import INCLUDES, LOG_DIRECTORY, USER, HOST, TARGET, STATS, HD
-# from settings import INCLUDES, LOG_DIRECTORY, USER, HOST, TARGET, STATS, HD
+from settings import INCLUDES, LOG_DIRECTORY, USER, HOST, TARGET, STATS, HD
 
 
 # if today log_file exists, remove it
