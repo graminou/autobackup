@@ -17,13 +17,17 @@ Comments included. Note that rsync is launched to have an incremental backup, wi
 No external library is needed, so no virtual environment.
 Simply do : 
 
-```$ python3 autobackup.py```
+```
+$ python3 autobackup.py
+```
 
 ## 5. Cron task
 As backups need to be fully automated, the easiest way to do so is to produce a cron task.
 For me : 
 
-```$ crontab -e
-30 12 * * 1-5 /usr/bin/python3 /path/to/script/autobackup.py```
+```
+$ crontab -e
+30 12 * * 1-5 /usr/bin/python3 /path/to/script/autobackup.py
+```
 
 launches the script at 12.30 PM every weekday of every month.
