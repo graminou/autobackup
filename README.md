@@ -5,7 +5,7 @@ Autobackup is a short Python3 script to backup files in remote HD. It's based on
 I needed to automatebackups file on my remote usb hard drive. 
 The script uses your settings to launch rsync on the local files you need to backup, on the target you have chosen.
 
-# Beware : your ssh connexion must use public-key, and not password, which is evil, we all know it ;o).
+### Beware : your ssh connexion must use public-key, and not password, which is evil, we all know it ;o).
 
 ## 2. Settings
 Your personal settings are to be written in settings.py (comments included)
@@ -16,7 +16,7 @@ Simply do :
 
 $ python3 autobackup.py
 
-## 4. Cron task
+## 4. Cron task
 As backups need to be fully automated, the easiest way to do so is to produce a cron task.
 For me : 
 
