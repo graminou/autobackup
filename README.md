@@ -30,11 +30,12 @@ $ crontab -e
 ```
 
 launches the script at 12.30 PM every weekday of every month.
-For me: 
+
+Running Debian Jessie, I have done it another way : I've added 
 
 ```
-$ crontab -e
-@reboot /usr/bin/python3 /path/to/script/autobackup.py
+/usr/bin/python3 /path/to/script/autobackup.py
 ```
 
-launches the script each time I open a session on my debian.
+to the apps launched at boot.
+
