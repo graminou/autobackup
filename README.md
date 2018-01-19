@@ -1,6 +1,7 @@
 # Autobackup
 Autobackup is a short Python3 script to backup files in remote HD. It's based on rsync upon ssh, and still have been tested only on Debian Jessie (_test on Windows 10 in progress)_
 
+
 ## 1. What's going on ?
 I needed to automatebackups file on my remote usb hard drive. 
 The script uses your specific settings to launch rsync on the local files you need to backup, and push them _via_ ssh on the target you have chosen.
@@ -38,4 +39,8 @@ Running Debian Jessie, I have done it another way : I've added
 ```
 
 to the apps launched at boot.
+
+## 6. TODO
+_* source hierarchy is not ok on target : to be fixed quickly !
+_* test on Windows 10
 
