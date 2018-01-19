@@ -44,6 +44,5 @@ to the apps launched at boot.
 
 ## 6. TODO
   
-  * --source hierarchy is not ok on target : to be fixed quickly !--  
   * test on Windows 10
 
