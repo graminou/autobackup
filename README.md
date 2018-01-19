@@ -11,6 +11,8 @@ The script uses your specific settings to launch rsync on the local files you ne
 ## 2. settings.py
 Your personal settings are to be written in settings.py (comments included)
 
+**_Beware : sources paths must NOT end with / otherwise rsync copies the content of the source without its parent folder (and messes the target...) 
+
 ## 3. autobackup.py
 Comments included. Note that rsync is launched to have an incremental backup, with no remove file option. To be changed if other options suit your nedd better.
 
@@ -42,6 +44,6 @@ to the apps launched at boot.
 
 ## 6. TODO
   
-  * source hierarchy is not ok on target : to be fixed quickly !  
+  * --source hierarchy is not ok on target : to be fixed quickly !--  
   * test on Windows 10
 
