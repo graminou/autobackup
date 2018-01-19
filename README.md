@@ -41,6 +41,6 @@ Running Debian Jessie, I have done it another way : I've added
 to the apps launched at boot.
 
 ## 6. TODO
-_* source hierarchy is not ok on target : to be fixed quickly !
-_* test on Windows 10
+  source hierarchy is not ok on target : to be fixed quickly !
+  test on Windows 10
 
